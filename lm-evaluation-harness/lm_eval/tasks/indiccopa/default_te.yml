@@ -1,0 +1,14 @@
+group: indiccopa
+task: indiccopa_te
+dataset_path: ai4bharat/IndicCOPA
+dataset_name: translation-te
+output_type: multiple_choice
+validation_split: null
+test_split: test
+doc_to_text: !function utils.doc_to_text_te
+doc_to_target: label
+doc_to_choice: !function utils.doc_to_choice
+metric_list:
+  - metric: acc_norm
+metadata:
+  - version: 1.0
