@@ -3,7 +3,7 @@ Language-Specific LLM Adaptation
 
 ## 1. Overview
 
-This repository contains the codebase for the paper "Exploring Design Choices for Building Language-Specific LLMs".
+This repository contains the codebase for the paper ["Exploring Design Choices for Building Language-Specific LLMs"](https://arxiv.org/abs/2406.14670).
 
 ## 2. Setup
 ### 2.2 Installation
@@ -60,9 +60,18 @@ run_lm_bench_eval.sh hi saved_models/results_Llama2_7b_200k_hi_50kTok
 
 If our work was helpful in your research, please kindly cite us as follows:
 ```
+@misc{tejaswi2024exploring,
+      title={Exploring Design Choices for Building Language-Specific LLMs}, 
+      author={Atula Tejaswi and Nilesh Gupta and Eunsol Choi},
+      year={2024},
+      eprint={2406.14670},
+      archivePrefix={arXiv}
+}
 ```
  
 ## References
 [1] Xue, Linting, et al. "mT5: A massively multilingual pre-trained text-to-text transformer." arXiv preprint arXiv:2010.11934 (2020).
+
 [2] Kudo, Taku, and John Richardson. "Sentencepiece: A simple and language independent subword tokenizer and detokenizer for neural text processing." arXiv preprint arXiv:1808.06226 (2018).
+
 [3] Dobler, Konstantin, and Gerard De Melo. "FOCUS: Effective Embedding Initialization for Monolingual Specialization of Multilingual Models." The 2023 Conference on Empirical Methods in Natural Language Processing. 2023.
